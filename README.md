@@ -30,6 +30,8 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -40,37 +42,20 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global API management and testing sector is estimated at **$12.5B–$15B** ($8.5B–$10.3B for API management and $4B–$4.9B for API testing/quality engineering), growing at ~18–22% CAGR driven by microservices, cloud-native architectures, and automated CI/CD pipelines. The broader API infrastructure market exhibits **moderate concentration**—anchored by dominant platforms (Postman, Kong, hyperscalers) at the enterprise core—alongside a **moderately fragmented** and competitive developer tools periphery where open-source CLI utilities and agile challenger platforms continuously contest market share.
+
 ## SaaS/Hosted Platforms
 
+| Company / Product | Company Size (Valuation / Revenue) | Starting Paid Pricing | Free Tier Limits | Key Highlights & Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Postman CLI](https://www.postman.com/)** | **$5.6B valuation** (~$313M ARR) | **$9/user/month** (Solo / Basic plan billed annually, or $14 monthly; Team at $19/user/month) | **1 user**, 1,000 monitor requests/month, 50 AI credits, unlimited manual collection runs | Command-line collection runner and API testing tool for CI/CD integration with JUnit/HTML reporting and environment management. |
+| **[Insomnia CLI](https://insomnia.rest/)** (Kong Inc.) | **$2.0B valuation** (Kong ARR >$100M) | **$12/user/month** (Pro plan billed annually; $45/user/month for Enterprise) | **Up to 3 users** (Git Sync projects), unlimited local/cloud projects, 1,000 mock requests/month, unlimited collection runs via Inso CLI | Native runner for Insomnia specs/collections, Git sync, environment switching, and CI/CD test execution backed by Kong Konnect. |
+| **[RapidAPI CLI](https://rapidapi.com/)** (Nokia) | **$106M acquisition value** (~$40M-$45M ARR; formerly $1.0B peak valuation) | **$10/user/month** (RapidAPI for Teams starting tier after 5 free seats) | **First 5 team seats free forever**; API marketplace free tiers default up to 500,000 requests/month (or custom provider quotas) with 10 GB bandwidth | CLI tool for interacting with RapidAPI marketplace and enterprise hubs, managing API collections, and running terminal tests. |
+| **[HTTPie Desktop & Cloud](https://httpie.io/)** | **$6.5M funding raised** (Seed stage, private revenue) | **$5/user/month** (Desktop/Team tier) | **Free forever** incognito/offline mode; unlimited local requests, unlimited CLI usage, and free preview access to AI requests and cloud sync upon sign-up | Clean, human-friendly API testing UI with cross-device sync and seamless companion CLI integration. |
+| **[Apidog CLI](https://apidog.com/)** | **Bootstrapped / Private** (Non-disclosed revenue) | **$9/user/month** (Basic plan, or $18/user/month for Professional) | **Up to 4 users**, 5 team projects, 1 sprint branch/project, 10,000 cloud mock calls/month, unlimited automated collection & test runs | Visual design editor and headless CLI runner (`apifox run`) supporting CLI, HTML, JSON, and JUnit reporters with AI agent hints. |
 
-
-- **[Postman CLI](https://www.postman.com/)**
-
-  **Command-line collection runner and API testing tool** from the Postman platform. Features **collection execution**, **environment management**, and **CI/CD integration** with JUnit and HTML reporting. **Note**: Postman's free tier now caps at one user, 1,000 monitor requests/month, and 50 AI credits—**for any team use, the Solo plan at $9/month or Team at $19/user/month is the realistic starting point** .
-
-
-
-- **[Insomnia CLI](https://insomnia.rest/)**
-
-  **Command-line runner for Insomnia collections**. Features **environment switching**, **CI integration**, and **test execution** from the terminal.
-
-
-
-- **[HTTPie Desktop](https://httpie.io/)**
-
-  **Paid desktop tier starting at $5/user/month** with expanded history and team features. **The CLI and web app remain entirely free**—only the desktop app has a paid tier . **HTTPie is in growth mode with no announced paid CLI tier as of March 2026**—this is either a VC-funded play or a bet on future enterprise monetization .
-
-
-
-- **[Apidog CLI](https://apidog.com/)**
-
-  **Command-line runner for Apidog test scenarios**. Build tests in the visual editor, run them from any shell with `apifox run`. **Reporters support CLI, HTML, JSON, and JUnit** output. **Structured JSON with `agentHints.nextSteps`** enables AI agents to run test suites and decide next actions without screen parsing . **Note**: Not open source—scenarios live in Apidog projects, making this an integrated platform approach rather than a standalone HTTP tool .
-
-
-
-- **[RapidAPI CLI](https://rapidapi.com/)**
-
-  **Command-line interface for RapidAPI marketplace**—test APIs directly from terminal without leaving the RapidAPI ecosystem.
 
 
 
