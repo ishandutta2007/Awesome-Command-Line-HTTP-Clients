@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0e172a" />
+      <stop offset="100%" stop-color="#1e1035" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="primary-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="accent-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="terminal-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.8" opacity="0.6" />
+      <circle cx="40" cy="40" r="1" fill="#334155" opacity="0.5" />
+    </pattern>
+
+    <!-- Filter for Glow Effects -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="badge-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .terminal-cursor {
+      animation: blink 1s step-start infinite;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .flow-line {
+      stroke-dasharray: 8 12;
+      animation: dashFlow 20s linear infinite;
+    }
+    @keyframes dashFlow {
+      from { stroke-dashoffset: 400; }
+      to { stroke-dashoffset: 0; }
+    }
+    .pulse-orb {
+      animation: pulse 4s ease-in-out infinite alternate;
+    }
+    @keyframes pulse {
+      0% { transform: scale(0.95); opacity: 0.2; }
+      100% { transform: scale(1.15); opacity: 0.45; }
+    }
+    .float-badge {
+      animation: floating 6s ease-in-out infinite alternate;
+    }
+    @keyframes floating {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(-8px); }
+    }
+    .text-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      letter-spacing: -1px;
+    }
+    .text-mono {
+      font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', Courier, monospace;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="16" fill="url(#bg-grad)" />
+  <rect width="1200" height="360" rx="16" fill="url(#terminal-grid)" />
+
+  <!-- Dynamic Ambient Glow Circles (Behind text & graphics) -->
+  <g class="pulse-orb" style="transform-origin: 200px 100px;">
+    <circle cx="200" cy="100" r="140" fill="#38bdf8" opacity="0.15" filter="url(#glow)" />
+  </g>
+  <g class="pulse-orb" style="transform-origin: 1000px 240px; animation-delay: -2s;">
+    <circle cx="1000" cy="240" r="160" fill="#a855f7" opacity="0.15" filter="url(#glow)" />
+  </g>
+
+  <!-- Animated Data Flow Rays (Dynamic Canvas Elements in Background) -->
+  <g opacity="0.4">
+    <path class="flow-line" d="M 0 60 Q 300 120, 600 50 T 1200 90" fill="none" stroke="#06b6d4" stroke-width="1.5" />
+    <path class="flow-line" d="M 0 300 Q 400 220, 800 280 T 1200 210" fill="none" stroke="#8b5cf6" stroke-width="1.5" style="animation-duration: 15s;" />
+    <path class="flow-line" d="M 150 0 Q 350 180, 700 180 T 1200 320" fill="none" stroke="#3b82f6" stroke-width="1" style="animation-duration: 25s;" />
+  </g>
+
+  <!-- Dynamic Floating Decorative Method Tags (Positioned away from center text) -->
+  <g class="float-badge">
+    <!-- GET Pill -->
+    <g transform="translate(75, 45)">
+      <rect width="70" height="26" rx="13" fill="#1e293b" stroke="#10b981" stroke-width="1.5" opacity="0.85" />
+      <text x="35" y="18" fill="#10b981" font-size="12" font-weight="700" text-anchor="middle" class="text-mono">GET</text>
+    </g>
+    <!-- POST Pill -->
+    <g transform="translate(1040, 50)">
+      <rect width="76" height="26" rx="13" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5" opacity="0.85" />
+      <text x="38" y="18" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle" class="text-mono">POST</text>
+    </g>
+    <!-- 200 OK Pill -->
+    <g transform="translate(1010, 280)">
+      <rect width="90" height="26" rx="13" fill="#1e293b" stroke="#10b981" stroke-width="1.5" opacity="0.85" />
+      <text x="45" y="18" fill="#34d399" font-size="12" font-weight="700" text-anchor="middle" class="text-mono">200 OK</text>
+    </g>
+    <!-- JSON / REST Pill -->
+    <g transform="translate(90, 280)">
+      <rect width="80" height="26" rx="13" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5" opacity="0.85" />
+      <text x="40" y="18" fill="#fbbf24" font-size="12" font-weight="700" text-anchor="middle" class="text-mono">HTTP/3</text>
+    </g>
+  </g>
+
+  <!-- Terminal Command Window Preview Banner (Foreground Layer) -->
+  <g transform="translate(180, 28)">
+    <!-- Terminal Outer Frame -->
+    <rect width="840" height="304" rx="12" fill="#0b1120" stroke="#334155" stroke-width="1.5" opacity="0.95" />
+    
+    <!-- Window Bar Header -->
+    <path d="M 0 12 C 0 5.373 5.373 0 12 0 L 828 0 C 834.627 0 840 5.373 840 12 L 840 38 L 0 38 Z" fill="#1e293b" />
+    <circle cx="22" cy="19" r="6" fill="#ef4444" />
+    <circle cx="42" cy="19" r="6" fill="#f59e0b" />
+    <circle cx="62" cy="19" r="6" fill="#10b981" />
+    <text x="420" y="24" fill="#94a3b8" font-size="12" font-weight="600" text-anchor="middle" class="text-mono">bash - http-client-toolkit</text>
+
+    <!-- Terminal Prompt Line -->
+    <g transform="translate(36, 72)">
+      <text x="0" y="0" fill="#38bdf8" font-size="15" font-weight="700" class="text-mono">❯</text>
+      <text x="20" y="0" fill="#f1f5f9" font-size="14" font-weight="500" class="text-mono">curl -sSL https://api.terminal.dev/v1/awesome | hurl --test</text>
+      <rect class="terminal-cursor" x="525" y="-13" width="9" height="16" fill="#38bdf8" />
+    </g>
+
+    <!-- Main Title (Clear Foreground, Never Obscured) -->
+    <text x="420" y="145" text-anchor="middle" class="text-title" font-size="40" fill="url(#primary-glow)" filter="url(#badge-glow)">
+      Awesome Command Line HTTP Clients
+    </text>
+
+    <!-- Subtitle (Clear Foreground) -->
+    <text x="420" y="185" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="500" fill="#cbd5e1" letter-spacing="0.3px">
+      Curated Suite of Terminal-Native Request Tools, CLI API Testers &amp; CI/CD Automation
+    </text>
+
+    <!-- Feature Pills inside Terminal Window -->
+    <g transform="translate(140, 218)">
+      <!-- Pill 1: Universal Clients -->
+      <rect x="0" y="0" width="160" height="34" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="80" y="22" fill="#38bdf8" font-size="13" font-weight="600" text-anchor="middle" class="text-mono">⚡ curl • xh • HTTPie</text>
+
+      <!-- Pill 2: Declarative Testing -->
+      <rect x="180" y="0" width="175" height="34" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="267" y="22" fill="#a78bfa" font-size="13" font-weight="600" text-anchor="middle" class="text-mono">🧪 Hurl • Step CI • ain</text>
+
+      <!-- Pill 3: Benchmarks & TUIs -->
+      <rect x="375" y="0" width="185" height="34" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="467" y="22" fill="#34d399" font-size="13" font-weight="600" text-anchor="middle" class="text-mono">📊 Vegeta • oha • posting</text>
+    </g>
+
+    <!-- Bottom Status Text -->
+    <text x="420" y="282" text-anchor="middle" class="text-mono" font-size="12" fill="#64748b">
+      ● 100% Terminal-Native  •  Zero Overhead  •  CI/CD Automated Testing Ready
+    </text>
+  </g>
+</svg>

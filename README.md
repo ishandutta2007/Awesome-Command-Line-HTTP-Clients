@@ -1,52 +1,49 @@
-# Awesome-Command-Line-HTTP-Clients
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Command Line HTTP Clients Banner" width="100%">
+</p>
 
-## Top Command Line HTTP Clients Ecosystem
+# 🚀 Awesome Command Line HTTP Clients
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Command-Line-HTTP-Clients/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Command-Line-HTTP-Clients?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Command-Line-HTTP-Clients/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Command-Line-HTTP-Clients?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Command-Line-HTTP-Clients/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Command-Line-HTTP-Clients?style=flat-square&color=red" alt="Open Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Command-Line-HTTP-Clients/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+> 🌐 **A curated collection of top-tier Command Line HTTP Clients, terminal-native REST/GraphQL/gRPC test runners, HTTP benchmarking tools, and CI/CD automated API quality assurance frameworks.**
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+Whether you are looking for universal network workhorses like **curl** and **wget**, human-friendly alternatives like **HTTPie** and **xh**, declarative test frameworks like **Hurl** and **Step CI**, load-testing beasts like **Vegeta** and **hey**, or modern terminal user interfaces (TUIs) like **posting**, this list indexes the best developer utilities for the command line.
 
-*Focused on Terminal-Native Requests, Scriptable Testing & CI/CD Pipeline Integration*
+---
 
-**Last updated: October 2026**
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS/Hosted Platforms](#-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [Top Projects (Ranked by GitHub Stars)](#top-projects-ranked-by-github-stars)
+  - [Specialized & Non-GitHub Tools](#specialized--non-github-tools)
+- [🛠️ Frameworks for Building Custom Testing Systems](#️-frameworks-for-building-custom-testing-systems)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💡 Disclaimer & Engineering Insights](#-disclaimer--engineering-insights)
+- [⭐ Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
 
+---
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Command Line HTTP Clients**. These tools enable developers to send HTTP requests, inspect responses, and run API tests directly from the terminal—from the universal curl to human-friendly alternatives with colored output, session management, and declarative test files that live in version control.
+## 📊 Sector Overview & Market Dynamics
 
+The global API management and testing sector is estimated at **$12.5B–$15B** ($8.5B–$10.3B for API management and $4B–$4.9B for API testing/quality engineering), growing at **~18–22% CAGR** driven by microservices, cloud-native architectures, and automated CI/CD pipelines. 
 
+The broader API infrastructure market exhibits **moderate concentration**—anchored by dominant platforms (Postman, Kong, hyperscalers) at the enterprise core—alongside a **moderately fragmented** and competitive developer tools periphery where open-source CLI utilities and agile challenger platforms continuously contest market share.
 
-**Examples** include curl, Wget, HTTPie, Postman CLI, Insomnia CLI, HTTP-Prompt, Hurl, xh, ain, and Step CI (the category leaders).
+---
 
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for terminal-native HTTP interaction, scriptable testing, and CI/CD integration—ideal for developers, DevOps engineers, and organizations seeking transparent, vendor-independent API tooling.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## Sector Overview & Market Dynamics
-
-The global API management and testing sector is estimated at **$12.5B–$15B** ($8.5B–$10.3B for API management and $4B–$4.9B for API testing/quality engineering), growing at ~18–22% CAGR driven by microservices, cloud-native architectures, and automated CI/CD pipelines. The broader API infrastructure market exhibits **moderate concentration**—anchored by dominant platforms (Postman, Kong, hyperscalers) at the enterprise core—alongside a **moderately fragmented** and competitive developer tools periphery where open-source CLI utilities and agile challenger platforms continuously contest market share.
-
-## SaaS/Hosted Platforms
+## 🏢 SaaS/Hosted Platforms
 
 | Company / Product | Company Size (Valuation / Revenue) | Starting Paid Pricing | Free Tier Limits | Key Highlights & Capabilities |
 | :--- | :--- | :--- | :--- | :--- |
@@ -56,151 +53,153 @@ The global API management and testing sector is estimated at **$12.5B–$15B** (
 | **[HTTPie Desktop & Cloud](https://httpie.io/)** | **$6.5M funding raised** (Seed stage, private revenue) | **$5/user/month** (Desktop/Team tier) | **Free forever** incognito/offline mode; unlimited local requests, unlimited CLI usage, and free preview access to AI requests and cloud sync upon sign-up | Clean, human-friendly API testing UI with cross-device sync and seamless companion CLI integration. |
 | **[Apidog CLI](https://apidog.com/)** | **Bootstrapped / Private** (Non-disclosed revenue) | **$9/user/month** (Basic plan, or $18/user/month for Professional) | **Up to 4 users**, 5 team projects, 1 sprint branch/project, 10,000 cloud mock calls/month, unlimited automated collection & test runs | Visual design editor and headless CLI runner (`apifox run`) supporting CLI, HTML, JSON, and JUnit reporters with AI agent hints. |
 
+---
 
+## 💻 Open-Source GitHub Projects
 
+### Top Projects (Ranked by GitHub Stars)
 
-## Open-Source GitHub Projects
+The following open-source command line HTTP tools and test runners are sorted in descending order by GitHub stargazers. Each repository includes an official social star badge directly linking to its stargazers page.
 
+1. **[curl](https://github.com/curl/curl)** [![GitHub stars](https://img.shields.io/github/stars/curl/curl?style=social&color=white)](https://github.com/curl/curl/stargazers)
+   - **License:** curl License (MIT/X derivate) • **Language:** C
+   - **The universal standard**—pre-installed on macOS, Windows 10/11, and virtually every Linux distribution. Supports HTTP/1.1, HTTP/2, HTTP/3, HTTPS, FTP, FTPS, SCP, SFTP, TFTP, DICT, TELNET, LDAP, FILE, MQTT, and WebSockets. The ultimate bedrock of data transfers and API scripting.
 
+2. **[HTTPie CLI](https://github.com/httpie/cli)** [![GitHub stars](https://img.shields.io/github/stars/httpie/cli?style=social&color=white)](https://github.com/httpie/cli/stargazers)
+   - **License:** BSD-3-Clause • **Language:** Python
+   - **User-friendly command-line HTTP client for the API era.** Intuitive formatting syntax (`key=value` for strings, `key:=json` for typed data), automatic syntax highlighting, formatted JSON output, persistent sessions (`--session`), and pluggable authentication.
 
-- **[curl](https://github.com/curl/curl)**
+3. **[Vegeta](https://github.com/tsenart/vegeta)** [![GitHub stars](https://img.shields.io/github/stars/tsenart/vegeta?style=social&color=white)](https://github.com/tsenart/vegeta/stargazers)
+   - **License:** MIT • **Language:** Go
+   - **Versatile HTTP load testing tool and library.** Designed for testing HTTP services with constant request rates. Features lazy target streaming, low memory consumption, binary reporting formats, and fast command-line terminal plots.
 
-  **Command line tool and library for transferring data with URLs** (curl License) . **The universal standard**—pre-installed on macOS, Windows 10, and most Linux distributions  . **Supports HTTP, HTTPS, FTP, FTPS, SCP, SFTP, TFTP, DICT, TELNET, LDAP, FILE, and more**  . **The foundation of API testing**—every HTTP client ultimately shells out to something curl-like . **Note**: The interactive experience is dated—you manually set headers, JSON isn't auto-prettified, and asserting on responses means piping to `jq` and checking exit status yourself. **It sends and displays, but doesn't test** .
+4. **[hey](https://github.com/rakyll/hey)** [![GitHub stars](https://img.shields.io/github/stars/rakyll/hey?style=social&color=white)](https://github.com/rakyll/hey/stargazers)
+   - **License:** Apache-2.0 • **Language:** Go
+   - **Tiny, blazing-fast HTTP load generator.** A modern replacement for ApacheBench (`ab`), supporting HTTP/2, custom headers, worker concurrency, and terminal latency percentile breakdowns.
 
+5. **[Hurl](https://github.com/Orange-OpenSource/hurl)** [![GitHub stars](https://img.shields.io/github/stars/Orange-OpenSource/hurl?style=social&color=white)](https://github.com/Orange-OpenSource/hurl/stargazers)
+   - **License:** Apache-2.0 • **Language:** Rust (powered by libcurl)
+   - **Declarative HTTP requests and automated REST API testing tool.** Written in plain text files that look like HTTP requests. Built-in assertions on status codes, headers, JSONPath, XPath, and regex. Seamlessly acts as a CI gate with the `--test` flag.
 
+6. **[posting](https://github.com/darrenburns/posting)** [![GitHub stars](https://img.shields.io/github/stars/darrenburns/posting?style=social&color=white)](https://github.com/darrenburns/posting/stargazers)
+   - **License:** Apache-2.0 • **Language:** Python (Textual)
+   - **The modern API client that lives right inside your terminal.** Features a sleek, keyboard-centric terminal user interface (TUI), YAML-backed request collections, jump navigation, autocompletion, and scriptable environment configurations.
 
-- **[Wget](https://www.gnu.org/software/wget/)**
+7. **[Wuzz](https://github.com/asciimoo/wuzz)** [![GitHub stars](https://img.shields.io/github/stars/asciimoo/wuzz?style=social&color=white)](https://github.com/asciimoo/wuzz/stargazers)
+   - **License:** AGPL-3.0 • **Language:** Go
+   - **Interactive CLI tool for HTTP inspection.** Provides a curses-like interactive TUI for modifying request parameters, headers, and body on the fly, with real-time response filtering using regex, JSON, and HTML queries.
 
-  **The non-interactive network downloader** (GPL-3.0) . **Excels at file downloading where curl excels at HTTP flexibility**  . **Supports recursive download, mirroring, and resume of interrupted downloads** . **Best for**: bulk downloads, mirroring websites, and situations where a simple `wget URL` is sufficient .
+8. **[oha](https://github.com/hatoo/oha)** [![GitHub stars](https://img.shields.io/github/stars/hatoo/oha?style=social&color=white)](https://github.com/hatoo/oha/stargazers)
+   - **License:** MIT • **Language:** Rust
+   - **HTTP load generator with real-time animated TUI.** Inspired by `hey`, written in Rust, featuring real-time terminal graphs, latency distributions, error histograms, and HTTP/2 support.
 
+9. **[httpx](https://github.com/projectdiscovery/httpx)** [![GitHub stars](https://img.shields.io/github/stars/projectdiscovery/httpx?style=social&color=white)](https://github.com/projectdiscovery/httpx/stargazers)
+   - **License:** MIT • **Language:** Go
+   - **Fast and multi-purpose HTTP toolkit for reconnaissance and probing.** Supports high-concurrency URL probing, TLS/JARM fingerprinting, CDN detection, status code filtering, ASN mapping, and pipeline streaming.
 
+10. **[HTTP Prompt](https://github.com/httpie/http-prompt)** [![GitHub stars](https://img.shields.io/github/stars/httpie/http-prompt?style=social&color=white)](https://github.com/httpie/http-prompt/stargazers)
+    - **License:** MIT • **Language:** Python
+    - **Interactive REPL command-line HTTP client built on HTTPie.** Provides context-aware auto-completion, real-time syntax highlighting, persistent session states, and integration with OpenAPI/Swagger specifications.
 
-- **[HTTPie CLI](https://github.com/httpie/cli)**
+11. **[xh](https://github.com/ducaale/xh)** [![GitHub stars](https://img.shields.io/github/stars/ducaale/xh?style=social&color=white)](https://github.com/ducaale/xh/stargazers)
+    - **License:** MIT • **Language:** Rust
+    - **Friendly and fast tool for sending HTTP requests.** A standalone compiled Rust reimplementation of HTTPie's syntax—delivering native speed, instant startup, minimal memory footprint, and zero runtime dependencies.
 
-  **User-friendly command-line HTTP client** (BSD-3-Clause) . **The most widely adopted curl alternative for humans**—**80K+ GitHub stars**  . **Readable syntax**: `name=value` for strings, `name:=rawjson` for numbers, `field:` for headers  . **Colorized, formatted output by default** . **Built-in session management** via `--session`—session files are pure JSON you can edit by hand  . **The reference implementation for human-friendly CLI HTTP** .
+12. **[curl-impersonate](https://github.com/lwthiker/curl-impersonate)** [![GitHub stars](https://img.shields.io/github/stars/lwthiker/curl-impersonate?style=social&color=white)](https://github.com/lwthiker/curl-impersonate/stargazers)
+    - **License:** MIT • **Language:** C
+    - **Specialized build of curl that impersonates browser TLS and HTTP handshakes.** Perfectly mimics Chrome, Edge, Safari, and Firefox signatures (Cipher Suites, Extensions, ALPN, HTTP/2 frames) to navigate modern anti-bot protection.
 
+13. **[httpstat](https://github.com/reorx/httpstat)** [![GitHub stars](https://img.shields.io/github/stars/reorx/httpstat?style=social&color=white)](https://github.com/reorx/httpstat/stargazers)
+    - **License:** MIT • **Language:** Python
+    - **Visualizes curl statistics in a clear, formatted breakdown.** Displays DNS resolution, TCP handshake, TLS negotiation, server processing time, and content transfer latencies in a beautiful terminal graph.
 
+14. **[curlie](https://github.com/rs/curlie)** [![GitHub stars](https://img.shields.io/github/stars/rs/curlie?style=social&color=white)](https://github.com/rs/curlie/stargazers)
+    - **License:** MIT • **Language:** Go
+    - **The power of curl combined with the ease of use of HTTPie.** Wraps curl under the hood while offering HTTPie's human-friendly CLI ergonomics and formatted outputs without sacrificing curl's flags or speed.
 
-- **[Hurl](https://github.com/Orange-OpenSource/hurl)**
+15. **[Schemathesis](https://github.com/schemathesis/schemathesis)** [![GitHub stars](https://img.shields.io/github/stars/schemathesis/schemathesis?style=social&color=white)](https://github.com/schemathesis/schemathesis/stargazers)
+    - **License:** MIT • **Language:** Python
+    - **Property-based automated API testing for OpenAPI and GraphQL schemas.** Automatically synthesizes thousands of positive and negative test cases to expose edge-case crashes, spec non-compliance, and data corruption bugs.
 
-  **Command line HTTP testing tool and REST API test runner** (Apache-2.0) . **The most important innovation in terminal API testing**—**single Rust binary** powered by libcurl, no runtime to install  . **Tests are plain text files** that read almost like raw HTTP, making them **extremely reviewable in pull requests**  . **Built-in assertions** for status, headers, and body (JSONPath, XPath, regex)  . **`--test` flag** runs the file and returns non-zero exit on assertion failure—**a natural CI gate**  . **Stateful variable store**—data extracted from one response can influence subsequent requests within a workflow  . **The reference implementation for declarative HTTP testing** .
+16. **[resty](https://github.com/micha/resty)** [![GitHub stars](https://img.shields.io/github/stars/micha/resty?style=social&color=white)](https://github.com/micha/resty/stargazers)
+    - **License:** MIT • **Language:** Shell (Bash/Zsh)
+    - **Ultra-lightweight command-line REST client for pipelines.** A tiny shell script wrapper that enables fluent RESTful HTTP verbs (`GET`, `POST`, `PUT`, `DELETE`) directly from interactive shell sessions and scripts.
 
+17. **[Step CI](https://github.com/stepci/stepci)** [![GitHub stars](https://img.shields.io/github/stars/stepci/stepci?style=social&color=white)](https://github.com/stepci/stepci/stargazers)
+    - **License:** MPL-2.0 • **Language:** TypeScript
+    - **Declarative, CI-native API workflow testing and quality assurance.** Define multi-step integration workflows spanning REST, GraphQL, gRPC, tRPC, and WebSockets in simple YAML files with built-in schema validation and load testing.
 
+18. **[slumber](https://github.com/LucasPickering/slumber)** [![GitHub stars](https://img.shields.io/github/stars/LucasPickering/slumber?style=social&color=white)](https://github.com/LucasPickering/slumber/stargazers)
+    - **License:** MIT • **Language:** Rust
+    - **Terminal-based HTTP/REST client with YAML collections.** Config-first terminal client featuring profiles, environment variable overrides, dynamic chained response values, and keyboard-driven workflows.
 
-- **[xh](https://github.com/ducaale/xh)**
+19. **[httpyac](https://github.com/AnWeber/httpyac)** [![GitHub stars](https://img.shields.io/github/stars/AnWeber/httpyac?style=social&color=white)](https://github.com/AnWeber/httpyac/stargazers)
+    - **License:** MIT • **Language:** TypeScript
+    - **Command-line runner and developer tool for `*.http` and `*.rest` files.** Execute RFC 7230 REST files with support for HTTP, GraphQL, gRPC, WebSockets, MQTT, OAuth2 flows, and dynamic JavaScript assertions.
 
-  **A friendly and fast tool for sending HTTP requests** (MIT) . **The Rust reimplementation of HTTPie's friendly syntax**—**single binary, no Python runtime dependency**  . **Everything HTTPie does, but as a compiled binary**—faster startup, smaller footprint . **The best choice when you want HTTPie's syntax without installing Python** .
-
-
-
-- **[HTTP Prompt](https://github.com/httpie/http-prompt)**
-
-  **An interactive command-line HTTP client built on top of HTTPie** (MIT) . **The REPL for API exploration**—**provides a read-eval-print loop shell for exploring and testing APIs**  . **Context-aware tab completion** for HTTP methods, URLs, headers, and body parameters . **Terminal-based syntax highlighting** for both requests and responses  . **Persistent session state**—tracks current URL, headers, and context across commands  . **The best choice for interactive API exploration** .
-
-
-
-- **[ain](https://github.com/jonaslu/ain)**
-
-  **A HTTP client that delegates to curl, wget, or httpie as backend** (MIT) . **The file-based approach to curl**—organize APIs as template files, then delegate the actual call to curl/wget/httpie  . **Template files split requests into explicit sections**: `[Host]`, `[Query]`, `[Headers]`, `[Method]`, `[Body]`, `[Config]`, `[Backend]`, `[BackendOptions]`  . **Pull values from environment variables or .env files**—URL encoding handled automatically . **Can output the underlying curl/wget/httpie command**—shareable and pipeable into other tools  . **The bridge between raw curl and heavier clients** .
-
-
-
-- **[Step CI](https://github.com/stepci/stepci)**
-
-  **YAML-based API workflow runner** (MPL-2.0) . **The CI-native approach to multi-step API workflows**—**single workflow file supports REST, GraphQL, gRPC, tRPC, and SOAP**  . **Load testing and validation against OpenAPI data models** . **The runner and CLI are permanently free**  . **Note**: MPL-2.0 is weak copyleft—if you modify Step CI's own files, you must open-source those modifications. Using it to test your application carries no such restriction  . **The best choice for declarative multi-step workflows that run identically locally and in CI** .
-
-
-
-- **[Schemathesis](https://github.com/schemathesis/schemathesis)**
-
-  **Property-based API testing from OpenAPI/GraphQL schemas** (MIT) . **Automatically generates thousands of test cases** using Python's Hypothesis library  . **Finds crashes, validation errors, and spec violations that manual tests miss** . **The most rigorous open-source API testing tool**—finds edge cases humans don't think to test .
-
-
-
-- **[Vegeta](https://github.com/tsenart/vegeta)**
-
-  **HTTP load testing tool and library** (MIT) . **The standard for terminal load testing**—**constant-rate request scheduler dispatches at fixed frequency regardless of response times**  . **Lazy target streaming maintains low memory usage** during large tests . **Binary-encoded storage format minimizes disk usage** . **Distributed load generation** across multiple machines  .
-
-
-
-- **[Wuzz](https://github.com/asciimoo/wuzz)**
-
-  **Interactive CLI tool for HTTP inspection** (MIT) . **The terminal-based request inspector**—**filter response bodies with regex and format-specific query syntax for JSON/HTML**  . **Save captured requests and responses to disk** for offline analysis and reproduction  . **The best choice for debugging API issues interactively** .
-
-
-
-- **[httpx (ProjectDiscovery)](https://github.com/projectdiscovery/httpx)**
-
-  **Fast and multi-purpose HTTP toolkit** (MIT) . **The standard for HTTP reconnaissance**—**extracts metadata and status codes from HTTP targets and CIDR ranges**  . **TLS fingerprinting with JARM hashes** . **CDN detection, ASN mapping, and CNAME resolution**  . **The best choice for infrastructure discovery and probing** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[curl-impersonate](https://github.com/lwthiker/curl-impersonate)** — Special build of curl that impersonates Chrome, Edge, Safari, and Firefox (MIT) . **Bypasses TLS fingerprinting** for scraping modern anti-bot protected sites.
-
-- **[resty](https://github.com/micha/resty)** — Little command-line REST client (MIT) . **The simplest bash-based HTTP client** .
-
-- **[posting](https://github.com/darrenburns/posting)** — Modern API client TUI (Apache-2.0) . **YAML request files with Python hooks**—for keyboard-first developers who want a sleek modern TUI  .
-
-- **[slumber](https://github.com/LucasPickering/slumber)** — Config-first terminal HTTP client (MIT) . **Requests defined as YAML collections**—profiles, recipes, and dynamic values pulled from responses, files, or shell commands  .
-
-- **[fhttp](https://github.com/bahlo/fhttp)** — HTTP client with request dependency management (MIT) . **Declarative request files with `${request("PATH")}` expressions**—requests can depend on and preprocess with results from other requests  .
-
-- Community **n8n** workflows for API testing automation and CI pipeline alerting.
-
-
-
-**Frameworks for building custom systems**: Combine **curl** for universal scriptability with **Hurl** for declarative CI tests, **xh** for human-friendly requests, **ain** for file-based workflows, and **Step CI** for multi-step YAML workflows—creating a comprehensive terminal HTTP testing stack.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Command-line HTTP clients handling API credentials and production endpoints must follow security best practices and avoid committing secrets to version control.
-
-- **Open-source CLI HTTP clients are mature and production-ready.** curl is pre-installed on macOS, Windows 10, and most Linux distributions  . HTTPie has 80K+ GitHub stars and is entirely free  . Hurl provides declarative CI-native testing with a single Rust binary  . **These are genuine alternatives to commercial platforms.**
-
-- **curl vs HTTPie: the choice depends on your priority.** curl for **scripting, automation, and universal compatibility**—pre-installed, supports every protocol, documented in man pages  . HTTPie for **interactive testing and readable output**—human-friendly syntax, colorized JSON, session management  . **The pragmatic answer is both**: curl in CI scripts, HTTPie for exploration.
-
-- **Hurl represents the shift from "send request" to "test API."** The core distinction: **clients send requests and show responses; test tools judge responses and report exit status codes**  . Hurl's `--test` flag makes it a natural CI gate . **For API testing in pipelines, Hurl is the emerging standard.**
-
-- **The "lightweight" distinction matters for CI.** Single binaries (curl, xh, Hurl) start instantly and have minimal dependencies . Python-based tools (HTTPie) require a runtime and have slower startup  . **For CI pipelines where every second counts, compiled binaries win.**
-
-- **Postman's free tier has tightened significantly.** One user, 1,000 monitor requests/month, 50 AI credits  . **For teams, the Solo plan at $9/month or Team at $19/user/month is the realistic starting point** .
-
-- Self-hosted open-source solutions require proper CI/CD integration and secret management. **Tests belong in version control**—Hurl files, curl commands in scripts, and Step CI workflows are all reviewable, diffable, and reproducible.
-
-
+20. **[ain](https://github.com/jonaslu/ain)** [![GitHub stars](https://img.shields.io/github/stars/jonaslu/ain?style=social&color=white)](https://github.com/jonaslu/ain/stargazers)
+    - **License:** MIT • **Language:** Go
+    - **HTTP API client that delegates execution to curl, wget, or HTTPie.** Organize endpoint configurations into clean, modular templates with variable interpolation, environment files, and pipeable command generations.
 
 ---
 
+### Specialized & Non-GitHub Tools
 
+- **[GNU Wget](https://www.gnu.org/software/wget/)**
+  - **License:** GPL-3.0 • **Language:** C
+  - **The classic non-interactive network downloader.** Excels at recursive downloads, website mirroring, connection recovery, and headless file retrieval over HTTP, HTTPS, and FTP.
 
-**Made for developers, DevOps engineers, and organizations building transparent terminal API solutions.**
+---
 
-Let's make Command Line HTTP Clients more open, data-driven, and CI-native.
+## 🛠️ Frameworks for Building Custom Testing Systems
+
+Create robust terminal API pipelines by combining complementary tools across layers:
+- **Transport Bedrock:** Use **curl** or **xh** for fast, universal single-request invocation and shell piping.
+- **Declarative Test Automation:** Use **Hurl** or **Step CI** to store human-readable, version-controlled `.hurl` or `.yaml` test definitions in your Git repositories.
+- **Performance & Stress Testing:** Deploy **Vegeta**, **hey**, or **oha** to benchmark latency profiles and capacity thresholds directly in CI runner jobs.
+- **Security & Schema Validation:** Integrate **Schemathesis** for automated property-based fuzzing and **httpx** for asset discovery.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly encouraged! Help keep this ecosystem comprehensive, accurate, and up-to-date:
+
+1. 🍴 **Fork the repository** on GitHub.
+2. 🌿 **Create a dedicated branch** (`git checkout -b add/my-awesome-http-client`).
+3. ✏️ **Add or edit entries** in `README.md` following the established format (include license, language, concise description, and star badge).
+4. 📤 **Commit and push** your changes cleanly.
+5. 🚀 **Submit a Pull Request** with a brief summary of the project and why it belongs here.
+
+---
+
+## 💡 Disclaimer & Engineering Insights
+
+- **Community-Curated:** This repository is an independent, community-driven resource. Listing does not imply commercial endorsement.
+- **Credential Hygiene:** Never commit secrets, bearer tokens, or API keys directly into request files. Prefer environment variables (`$API_TOKEN`), `.env` files (added to `.gitignore`), or system credential vaults.
+- **Compiled Binaries vs. Runtimes:** Single compiled binaries (**curl**, **xh**, **Hurl**, **oha**) provide instant startup times and zero host dependencies, making them optimal for ephemeral CI/CD environments.
+- **Assertive Testing vs. Raw Execution:** Clients like curl and HTTPie excel at sending requests and rendering output. Declarative test runners like Hurl and Step CI evaluate assertions and return non-zero exit codes to fail pipeline builds when contracts are broken.
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Command-Line-HTTP-Clients&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Command-Line-HTTP-Clients&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for exploring and supporting this curated catalog! If you find this repository valuable for your daily development workflows, CI pipelines, or API testing stacks:
+
+- ⭐ **Star this repository** to help fellow developers discover it.
+- 🍴 **Fork and share** it with your engineering team and community.
+- ☕ **Sponsor or buy a coffee** to support ongoing maintenance and open-source curation:
+  
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor on GitHub" />
+  </a>
+</p>
+
+Your support is deeply appreciated! 🙌
